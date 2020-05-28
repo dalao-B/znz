@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f714c9ac-b184-4159-aafd-386128722534" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/part/process/process_UpdateTransStagePanel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="253" column="51" selection-start-line="253" selection-start-column="51" selection-end-line="253" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Btns</find>
+      <find>too</find>
+      <find>slice_rows</find>
+      <find>pager</find>
+      <find>dg_data</find>
+      <find>total: new_data.length-new_stdata.length</find>
+      <find>dg</find>
+      <find>searchButton</find>
+      <find>function getData() {</find>
+      <find>// 向后台传递日期等参数变量</find>
+      <find>pagerFilter</find>
+      <find>length</find>
+      <find>load_data</find>
+      <find>total: new_data.length</find>
+      <find>Btns_History</find>
+      <find>去除</find>
+      <find>btns</find>
+      <find>datagrid_columns_config</find>
+      <find>成单人数</find>
+      <find>command</find>
+      <find>get360ClassInfo</find>
+      <find>getOrganizationClassInfo</find>
+      <find>columns</find>
+      <find>process_AdvanceTransStage</find>
+      <find>left</find>
+      <find>halign</find>
+      <find>快递完成</find>
+      <find>ExpressStatus_Finished_Organization</find>
+      <find>格式化</find>
+      <find>ajax</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>UnitType_Dept1_History</replace>
+      <replace>UnitType_Dept_History</replace>
+      <replace>UnitType_RegionType_History</replace>
+      <replace>UnitType3_History</replace>
+      <replace>UnitType_RadioFun_History</replace>
+      <replace>UnitType4_History</replace>
+      <replace>ColumnSort_RadioFun_History</replace>
+      <replace>Btns_History</replace>
+      <replace>serviceLevelId_History</replace>
+      <replace>UnitType5_History</replace>
+      <replace>ClassName_History</replace>
+      <replace>UnitType7_History</replace>
+      <replace>searchButton_History</replace>
+      <replace>dg_History</replace>
+      <replace>_Organization</replace>
+      <replace>center</replace>
+      <replace>100</replace>
+      <replace>width:100,</replace>
+      <replace>left</replace>
+      <replace>&lt;div class=&quot;easyui-panel&quot; style=&quot;background-color: #E0ECFF; width: 100%;height: 3.5%&quot;&gt;</replace>
+      <replace>style=&quot;width: 84%;height: 94%&quot;</replace>
+      <replace>right</replace>
+      <replace>style=&quot;background-color: #E0ECFF;  width: 110%;height:30px;overflow: hidden&quot;</replace>
+      <replace>data-options=&quot;fit:true&quot;</replace>
+      <replace>total: new_data.length-new_stdata.length,</replace>
+      <replace>total: new_data.length</replace>
+      <replace>datagrid_config</replace>
+      <replace />
+      <replace>loadFilter</replace>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>Y:\html\UpSmallTransWebNew</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/process_UpdateTransStageHistoryPanel.php" />
+        <option value="$PROJECT_DIR$/part/process_UpdateTrans.php" />
+        <option value="$PROJECT_DIR$/part/process_NewTrans.php" />
+        <option value="$PROJECT_DIR$/part/process_UpdateTransStage_obsoletePanel.php" />
+        <option value="$PROJECT_DIR$/part/process_UpdateClassBChange_DetailPanel.php" />
+        <option value="$PROJECT_DIR$/part/process_NewClassBChange_DetailPanel.php" />
+        <option value="$PROJECT_DIR$/part/process_NewTransStage_obsoletePanel.php" />
+        <option value="$PROJECT_DIR$/part/process_UpdateTransStagePanel1.php" />
+        <option value="$PROJECT_DIR$/echarts_use_setting.js" />
+        <option value="$PROJECT_DIR$/js/echarts_use_setting.php" />
+        <option value="$PROJECT_DIR$/part/process_NewTransStagePanel.php" />
+        <option value="$PROJECT_DIR$/part/process_UpdateTransStagePanel.php" />
+        <option value="$PROJECT_DIR$/part/process_NewTransStageHistoryPanel.php" />
+        <option value="$PROJECT_DIR$/part/process_UpdateTransStageHistoryPanel.php" />
+        <option value="$PROJECT_DIR$/process_UpdateTrans.php" />
+        <option value="$PROJECT_DIR$/process_NewTrans.php" />
+        <option value="$PROJECT_DIR$/part/result/updateTransStage.php" />
+        <option value="$PROJECT_DIR$/part/result/result_UpdateTrans.php" />
+        <option value="$PROJECT_DIR$/interface/include/actAnalysisWebMssqlDB.php" />
+        <option value="$PROJECT_DIR$/interface/config/config.php" />
+        <option value="$PROJECT_DIR$/js/default_date_setting.js" />
+        <option value="$PROJECT_DIR$/js/echarts_use_setting.js" />
+        <option value="$PROJECT_DIR$/part/process/process_NewTrans.php" />
+        <option value="$PROJECT_DIR$/part/process/process_UpdateTrans.php" />
+        <option value="$PROJECT_DIR$/part/process/process_AdvanceTrans.php" />
+        <option value="$PROJECT_DIR$/part/process/process_OrganizationTrans.php" />
+        <option value="$PROJECT_DIR$/interface/include/PublicFunction.php" />
+        <option value="$PROJECT_DIR$/interface/include/PublicFunc.php" />
+        <option value="$PROJECT_DIR$/tree.json" />
+        <option value="D:/working/mywork/UpSmallTransWebNew_0513/process_NewTransStagePanel.php" />
+        <option value="$PROJECT_DIR$/js/datagrid_columns.js" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/js/datagrid_columns_config.js" />
+        <option value="$PROJECT_DIR$/js/datagrid_config.js" />
+        <option value="$PROJECT_DIR$/part/process/process_UpdateTransStageHistoryPanel.php" />
+        <option value="$PROJECT_DIR$/111" />
+        <option value="$PROJECT_DIR$/part/process/process_NewTransStagePanel.php" />
+        <option value="$PROJECT_DIR$/part/process/process_NewTransStageHistoryPanel.php" />
+        <option value="$PROJECT_DIR$/part/process/process_AdvanceTransStagePanel.php" />
+        <option value="$PROJECT_DIR$/part/process/process_AdvanceTransStageHistoryPanel.php" />
+        <option value="$PROJECT_DIR$/part/process/process_OrganizationTransStagePanel.php" />
+        <option value="$PROJECT_DIR$/part/result/result_NewTransStage.php" />
+        <option value="$PROJECT_DIR$/part/result/result_UpdateTransStage.php" />
+        <option value="$PROJECT_DIR$/part/result/result_AdvanceTransStage.php" />
+        <option value="$PROJECT_DIR$/part/labor/labor_AdvanceTransStage.php" />
+        <option value="$PROJECT_DIR$/part/labor/labor_NewTransStage.php" />
+        <option value="$PROJECT_DIR$/part/labor/labor_OrganizationTransStage.php" />
+        <option value="$PROJECT_DIR$/part/labor/labor_UpdateTransStage.php" />
+        <option value="$PROJECT_DIR$/part/result/result_OrganizationTransStage.php" />
+        <option value="$PROJECT_DIR$/part/process/process_UpdateTransStagePanel.php" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-1088" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="UpSmallTransWebNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UpSmallTransWebNew" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UpSmallTransWebNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UpSmallTransWebNew" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UpSmallTransWebNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UpSmallTransWebNew" type="462c0819:PsiDirectoryNode" />
+              <item name="part" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UpSmallTransWebNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UpSmallTransWebNew" type="462c0819:PsiDirectoryNode" />
+              <item name="part" type="462c0819:PsiDirectoryNode" />
+              <item name="labor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UpSmallTransWebNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UpSmallTransWebNew" type="462c0819:PsiDirectoryNode" />
+              <item name="part" type="462c0819:PsiDirectoryNode" />
+              <item name="process" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UpSmallTransWebNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UpSmallTransWebNew" type="462c0819:PsiDirectoryNode" />
+              <item name="part" type="462c0819:PsiDirectoryNode" />
+              <item name="result" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ActAnalysisWeb" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="Y:\html\UpSmallTransWebNew\part\process" />
+      <recent name="Y:\html\UpSmallTransWebNew\part\result" />
+      <recent name="Y:\html\UpSmallTransWebNew\part\labor" />
+      <recent name="Y:\html\UpSmallTransWebNew" />
+      <recent name="Y:\html\UpSmallTransWebNew\part" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Y:\html\UpSmallTransWebNew" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f714c9ac-b184-4159-aafd-386128722534" name="Default Changelist" comment="" />
+      <created>1588730734431</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588730734431</updated>
+      <workItem from="1588730735634" duration="13625000" />
+      <workItem from="1588748642918" duration="2559000" />
+      <workItem from="1588751211714" duration="44874000" />
+      <workItem from="1588899439105" duration="152307000" />
+      <workItem from="1589347007183" duration="27174000" />
+      <workItem from="1589416207795" duration="27996000" />
+      <workItem from="1589453367535" duration="3093000" />
+      <workItem from="1589849931498" duration="2710000" />
+      <workItem from="1589853459123" duration="13771000" />
+      <workItem from="1590108354501" duration="91360000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="498360000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-1088" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17110874" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3294702" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20533548" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3294702" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/event.js" />
+    <entry file="file://$PROJECT_DIR$/js/world.js" />
+    <entry file="file://$PROJECT_DIR$/js/simplex.js" />
+    <entry file="file://$PROJECT_DIR$/js/vintage.js" />
+    <entry file="file://$PROJECT_DIR$/interface/config/activeConfig.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/process_UpdateTransStagePanel.php" />
+    <entry file="file://$PROJECT_DIR$/part/process_NewTransStageHistoryPanel.php" />
+    <entry file="file://$PROJECT_DIR$/part/process_UpdateTransStageHistoryPanel.php" />
+    <entry file="file://$PROJECT_DIR$/part/process_NewTransStagePanel.php" />
+    <entry file="file://$PROJECT_DIR$/process_UpdateTrans.php" />
+    <entry file="file://$PROJECT_DIR$/process_NewTrans.php" />
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="725" column="14" selection-start-line="725" selection-start-column="14" selection-end-line="725" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/process/process_NewClassBChange_DetailPanel.php" />
+    <entry file="file://$PROJECT_DIR$/part/process/process_NewTransStage_obsoletePanel.php" />
+    <entry file="file://$PROJECT_DIR$/part/process/process_UpdateTransStage_obsoletePanel.php" />
+    <entry file="file://$PROJECT_DIR$/js/default_date_setting.js" />
+    <entry file="file://$PROJECT_DIR$/interface/config/config.php.bak">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/working/mywork/ActAnalysisWeb_0518/part/process/process_UpdateTransStageHistoryPanel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#span#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/process/process_AdvanceTrans.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/process/process_UpdateTrans.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/include/actAnalysisWebMssqlDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3741">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/include/PublicFunc_EasyUI1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/include/GenericMssqlDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/include/PublicFunction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/include/PublicFunc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="47" column="20" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/asynRead.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="69" column="30" lean-forward="true" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="50945" selection-start-column="50945" selection-end-column="50945" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4712">
+          <caret line="284" column="23" selection-start-line="284" selection-start-column="19" selection-end-line="284" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/process/process_NewTrans.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-703">
+          <caret line="11" column="74" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/working/mywork/UpSmallTransWebNew_0513/process_NewTransStagePanel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="64" column="36" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="103" column="25" selection-start-line="103" selection-start-column="25" selection-end-line="103" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/makeExcel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="443" column="4" lean-forward="true" selection-start-line="443" selection-start-column="4" selection-end-line="443" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/process/process_OrganizationTrans.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/datagrid_config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="746">
+          <caret line="1243" column="3" lean-forward="true" selection-start-line="1243" selection-start-column="3" selection-end-line="1243" selection-end-column="3" />
+          <folding>
+            <element signature="e#28#5373#0" />
+            <element signature="e#29#2667#0" />
+            <element signature="e#35#261#0" />
+            <element signature="e#128#260#0" />
+            <element signature="e#157#201#0" />
+            <element signature="e#205#250#0" />
+            <element signature="e#622#895#0" />
+            <element signature="e#756#894#0" />
+            <element signature="e#792#835#0" />
+            <element signature="e#841#884#0" />
+            <element signature="e#2668#5372#0" />
+            <element signature="e#5411#11273#0" />
+            <element signature="e#5412#8058#0" />
+            <element signature="e#5418#5644#0" />
+            <element signature="e#5511#5643#0" />
+            <element signature="e#5540#5584#0" />
+            <element signature="e#5588#5633#0" />
+            <element signature="e#6004#6277#0" />
+            <element signature="e#6138#6276#0" />
+            <element signature="e#6174#6217#0" />
+            <element signature="e#6223#6266#0" />
+            <element signature="e#8059#11272#0" />
+            <element signature="e#11309#20031#0" />
+            <element signature="e#11310#16320#0" />
+            <element signature="e#11316#11542#0" />
+            <element signature="e#11409#11541#0" />
+            <element signature="e#11438#11482#0" />
+            <element signature="e#11486#11531#0" />
+            <element signature="e#11902#12175#0" />
+            <element signature="e#12036#12174#0" />
+            <element signature="e#12072#12115#0" />
+            <element signature="e#12121#12164#0" />
+            <element signature="e#14076#14199#0" />
+            <element signature="e#14471#14610#0" />
+            <element signature="e#15706#15824#0" />
+            <element signature="e#16321#20030#0" />
+            <element signature="e#20067#28267#0" />
+            <element signature="e#20068#24956#0" />
+            <element signature="e#20074#20300#0" />
+            <element signature="e#20167#20299#0" />
+            <element signature="e#20196#20240#0" />
+            <element signature="e#20244#20289#0" />
+            <element signature="e#20660#20933#0" />
+            <element signature="e#20794#20932#0" />
+            <element signature="e#20830#20873#0" />
+            <element signature="e#20879#20922#0" />
+            <element signature="e#23570#23693#0" />
+            <element signature="e#24342#24460#0" />
+            <element signature="e#24957#28266#0" />
+            <element signature="e#28303#37908#0" />
+            <element signature="e#28304#33450#0" />
+            <element signature="e#28310#28536#0" />
+            <element signature="e#28403#28535#0" />
+            <element signature="e#28432#28476#0" />
+            <element signature="e#28480#28525#0" />
+            <element signature="e#28896#29169#0" />
+            <element signature="e#29030#29168#0" />
+            <element signature="e#29066#29109#0" />
+            <element signature="e#29115#29158#0" />
+            <element signature="e#29923#30046#0" />
+            <element signature="e#32836#32954#0" />
+            <element signature="e#33451#37907#0" />
+            <element signature="e#37952#38178#0" />
+            <element signature="e#38045#38177#0" />
+            <element signature="e#38074#38118#0" />
+            <element signature="e#38122#38167#0" />
+            <element signature="e#38537#38810#0" />
+            <element signature="e#38671#38809#0" />
+            <element signature="e#38707#38750#0" />
+            <element signature="e#38756#38799#0" />
+            <element signature="e#44310#44536#0" />
+            <element signature="e#44403#44535#0" />
+            <element signature="e#44432#44476#0" />
+            <element signature="e#44480#44525#0" />
+            <element signature="e#44895#45168#0" />
+            <element signature="e#45029#45167#0" />
+            <element signature="e#45065#45108#0" />
+            <element signature="e#45114#45157#0" />
+            <element signature="e#57148#57374#0" />
+            <element signature="e#57241#57373#0" />
+            <element signature="e#57270#57314#0" />
+            <element signature="e#57318#57363#0" />
+            <element signature="e#57734#58007#0" />
+            <element signature="e#57868#58006#0" />
+            <element signature="e#57904#57947#0" />
+            <element signature="e#57953#57996#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/echarts_use_setting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="76" column="20" lean-forward="true" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/process/process_UpdateTransStageHistoryPanel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="289" column="15" lean-forward="true" selection-start-line="289" selection-start-column="15" selection-end-line="289" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/process/process_NewTransStagePanel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="280" column="15" selection-start-line="280" selection-start-column="15" selection-end-line="280" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/process/process_NewTransStageHistoryPanel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="282" column="15" selection-start-line="282" selection-start-column="15" selection-end-line="282" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/process/process_AdvanceTransStagePanel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="291" column="15" selection-start-line="291" selection-start-column="15" selection-end-line="291" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/process/process_AdvanceTransStageHistoryPanel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="292" column="15" selection-start-line="292" selection-start-column="15" selection-end-line="292" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/process/process_OrganizationTransStagePanel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="307" column="15" selection-start-line="307" selection-start-column="15" selection-end-line="307" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/result/result_NewTransStage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="231" column="15" selection-start-line="231" selection-start-column="15" selection-end-line="231" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/result/result_UpdateTransStage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="228" column="15" selection-start-line="228" selection-start-column="15" selection-end-line="228" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/result/result_AdvanceTransStage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="228" column="15" selection-start-line="228" selection-start-column="15" selection-end-line="228" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/labor/labor_AdvanceTransStage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="228" column="9" lean-forward="true" selection-start-line="228" selection-start-column="9" selection-end-line="228" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/labor/labor_NewTransStage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="228" column="15" selection-start-line="228" selection-start-column="15" selection-end-line="228" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/labor/labor_OrganizationTransStage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="228" column="15" selection-start-line="228" selection-start-column="15" selection-end-line="228" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/labor/labor_UpdateTransStage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="228" column="15" selection-start-line="228" selection-start-column="15" selection-end-line="228" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/111">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="29" selection-start-line="5" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/result/result_OrganizationTransStage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="191" column="57" selection-start-line="191" selection-start-column="57" selection-end-line="191" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/process/process_UpdateTransStagePanel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="253" column="51" selection-start-line="253" selection-start-column="51" selection-end-line="253" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

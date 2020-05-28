@@ -1,0 +1,103 @@
+<?php		
+	//确定用哪个数据接口：1为线上接口；2为测试平台接口
+	$whichInterface=1;       
+	 
+	//url服务器地址							   
+    $url=$whichInterface==1 ? json_encode('http://172.17.161.41/webNerve/test/dataServer.py/asynRead') 
+                          	 :json_encode('http://192.168.76.139/test/dataServer.py/asynRead');
+							 
+	
+	//各页面日期
+	$dateConfig=array(
+		'get360ClassInfo' 			=> array('minValue'=>'2013-09-09','startDate'=>'2013-10-08'),
+		'get3600ClassInfo' 			=> array('minValue'=>'2013-09-09','startDate'=>'2013-10-08'),
+		'get18000ClassInfo'			=> array('minValue'=>'2013-12-10','startDate'=>'2013-12-10'),
+		'getSpotClassInfo'			=> array('minValue'=>'2013-12-10','startDate'=>'2013-12-10'),
+		
+		'get360GuoChengInfo'		=>array('minValue'=>'2013-09-09','startDate'=>'2013-10-08'),
+		'get3600GuoChengInfo'		=>array('minValue'=>'2013-09-09','startDate'=>'2013-10-08'),
+		'get18000GuoChengInfo'		=>array('minValue'=>'2013-12-10','startDate'=>'2013-12-10'),
+		'getSpotInfo'				=>array('minValue'=>'2013-12-10','startDate'=>'2013-12-10'),
+	);
+	 
+
+
+	//保存特殊员工数据配置文件
+	$specialDataConfig=array(
+		'fileDataPath' 	=>'../js/dataJson/',
+		'fileName' 		=>'specialData.json'
+	);
+
+	//不显示的部门或组
+    $filterConfig=array(	
+		'get360'		=> array(),
+		'get3600'		=> array(8198,8366,8399,8368,8233,8440,8442,8443,8432,8436),
+		'get18000'		=> array(8198,8366,8399,8368,8233,8440,8442,8443,8432,8436),
+        'getSpot'       => array(8198,8366,8399,8368,8233,8440,8442,8443,8432,8436)
+	);
+	
+	//创建哪些报告
+	$createReportConfig=array(
+		'result'	=> array(
+	   		'get360ClassInfo'=>array(
+				'compile_dir'		=>'templates_c/',
+				'cache_dir'			=>'cache/result/360/',
+				'template_dir'		=>'templates/result/360/',
+				'config_dir'		=>'../interface/config/',
+				'startDate' 		=>'20130609',
+				'endDate'			=>'20130630',
+				'smallOrderMainKPI'	=>'小额订单'		
+			)/*,
+			'resultKPIDataGet'=>array(
+				'compile_dir'		=>'templates_c/',
+				'cache_dir'			=>'cache/result/3600/',
+				'template_dir'		=>'templates/result/3600/',
+				'config_dir'		=>'../interface/config/',
+				'startDate' 		=>'20130401',
+				'endDate'			=>'20130430',
+				'smallOrderMainKPI'	=>'3600上拽订单'				
+			)*/,
+			'get18000ClassInfo'=>array(
+				'compile_dir'		=>'templates_c/',
+				'cache_dir'			=>'cache/result/18000/',
+				'template_dir'		=>'templates/result/18000/',
+				'config_dir'		=>'../interface/config/',
+				'startDate' 		=>'20130311',
+				'endDate'			=>'20130430',
+				'smallOrderMainKPI'	=>'18000上拽订单'			 					  
+			)
+		),
+		'process'	=> array(),
+		'labor'		=> array()
+	);
+	
+
+ 	//连接数据库
+  /* 	$webnerveMssqlDBInfo = Array(
+	    "host" => "webSale",
+	    "user" => "U_Linux_Php_SalerIndexes",   
+	    "passwd" => "3f3dlfs833ddk",          
+	    'database' => 'db_companyData'
+	);*/
+	
+	
+	 	//连接数据库
+   	$webnerveMssqlDBInfo = Array(
+	    "host" => "webSale",
+	    "user" => "U_Linux_Php_SalesPerformanceWeb",   
+	    "passwd" => "83hfoyell455",          
+	    'database' => 'db_companyData'
+	); 
+	
+
+	
+/*         
+    $webnerveMssqlDBInfo = Array(
+                "host" => "webSale1",
+                "user" => "sa",   
+                "passwd" => "sql2005",          
+                'database' => 'db_companyData'
+                ); 
+*/
+       
+?>
