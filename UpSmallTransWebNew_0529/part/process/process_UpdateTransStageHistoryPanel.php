@@ -22,7 +22,7 @@
             </span>
                     <span style="padding-left: 10px">列排序选择：
                 <span id='' >
-                    <input type="radio" name="UnitType4_History" value="1" onclick={ColumnSort_RadioFun_History()} checked="true"/>用户激活期
+                    <input type="radio" name="UnitType4_History" value="1" onclick={ColumnSort_RadioFun_History()}>用户激活期
                 </span>
                 <span id=''>
                     <input type="radio" name="UnitType4_History" value="2" onclick={ColumnSort_RadioFun_History()} >用户响应期
@@ -83,7 +83,41 @@
 </div>
 <script type="text/javascript" src="js/datagrid_config.js?ver=<?php echo time(); ?>"></script>
 <script type="text/javascript">
+    var columns = [];
     $(function () {
+        //设置激活响应上拽期
+        var ActStartDate = ActList[1].ActStartDate;
+        var ActEndDate = ActList[1].ActEndDate;
+        var RespondStartDate = ActList[1].RespondStartDate;
+        var RespondEndDate = ActList[1].RespondEndDate;
+        var UpStartDate = ActList[1].UpStartDate;
+        var UpEndDate = ActList[1].UpEndDate;
+        var now_date = new Date();
+        now_date.setTime(now_date.getTime());
+        if (ActStartDate == null || ActEndDate == null ||
+            RespondStartDate == null || RespondEndDate == null ||
+            UpStartDate == null || UpEndDate == null){
+            document.getElementsByName('UnitType4_History')[2].checked='checked';
+            columns = process_UpdateTransStage_3;
+        } else {
+            if(now_date >= new Date(ActStartDate).getTime() &&
+                now_date <= new Date(ActEndDate).getTime()){
+                document.getElementsByName('UnitType4_History')[0].checked='checked';
+                columns = process_UpdateTransStage_1;
+            }else if (now_date >= new Date(RespondStartDate).getTime() &&
+                now_date <= new Date(RespondEndDate).getTime()) {
+                document.getElementsByName('UnitType4_History')[1].checked='checked';
+                columns = process_UpdateTransStage_2;
+            }else if(now_date >= new Date(UpStartDate).getTime() &&
+                now_date <= new Date(UpEndDate).getTime()){
+                document.getElementsByName('UnitType4_History')[2].checked='checked';
+                columns = process_UpdateTransStage_3;
+            }else {
+                document.getElementsByName('UnitType4_History')[2].checked='checked';
+                columns = process_UpdateTransStage_3;
+            }
+        }
+
         var selectType = 3;
         var serviceLevelId_History = -1;
         var PersonType = 0;       //id
@@ -108,7 +142,7 @@
             remoteSort:false,
             sortOrder:'asc',
 
-            columns:process_UpdateTransStage_2,
+            columns:columns,
 
              onBeforeSortColumn:function(sort, order){
                 // datagrid排序前把全部数据加载进去

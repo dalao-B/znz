@@ -283,11 +283,17 @@
             //连接数据库
     $webnerveMssqlDBInfo = Array(
         "host" => "stdb",
-        "user" => "U_Linux_Php_SalerIndexes",   
-        "passwd" => "3f3dlfs833ddk",          
+        "user" => "U_Linux_Php_SalerIndexes",
+        "passwd" => "3f3dlfs833ddk",
         'database' => 'db_companyData'
-    ); 
-    //*/
+    );
+    $webnerveMssqlDBInfo_1 = Array(
+        "host" => "stdb",
+        "user" => "U_Linux_Php_SalerIndexes",
+        "passwd" => '3f3dlfs833ddk',
+        'database' => 'DB_WebNerveData'
+    );
+//*/
 
     
 /*         

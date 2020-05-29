@@ -1108,6 +1108,23 @@ class webnerveMssqlDB extends PublicFunction
         );             
         return 'OK';          
     }
+
+	function getActList($request,&$retArray){
+		$storeName= 'P_WebNerveData_ActList_Get';
+
+		$paraList=array(
+			"Opid"      => array($request['personid'],SQLINT4,16),
+			"ActType"      => array($request['ActType'],SQLINT4,16),
+			"GameType"      => array($request['GameType'],SQLINT4,16),
+			"ErrMsg"    => array('',SQLVARCHAR,1000,true)
+		);
+		$ret=$this->procCall_Ext($storeName,$paraList,true,$result,MSSQL_ASSOC);
+		$errmsg=$paraList['ErrMsg'][0];
+		if($ret!='OK' || $errmsg!='OK'){
+			return $errmsg;
+		}
+		$retArray = $result[0];
+	}
 }     
      
 ?>

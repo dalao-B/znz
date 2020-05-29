@@ -1,12 +1,33 @@
 <div id="tabs" class="easyui-tabs" data-options="fit:true" >
-    <div title="18000上拽统计"  data-options="href:'part/process/process_AdvanceTransStagePanel.php'"></div>
-    <div title="18000上拽统计历史"  data-options="href:'part/process/process_AdvanceTransStageHistoryPanel.php'"></div>
+    <div title="3600上拽统计"  data-options="href:'part/process/process_UpdateTransStagePanel.php'"></div>
+<!--    <div title="3600用户成熟度统计" style="overflow: hidden" data-options="href:'part/process/process_UpdateClassBChange_DetailPanel.php'"></div>-->
+<!--    <div title="3600淘人系统" style="overflow: hidden" data-options="href:'part/process/process_UpdateTransStage_obsoletePanel.php'"></div>-->
+    <div title="3600上拽统计_历史"  data-options="href:'part/process/process_UpdateTransStageHistoryPanel.php'"></div>
 </div>
 <script type="text/javascript">
+    var ActList = getActList();
+    function getActList() {
+        var ActList = [];
+        $.ajax({
+            type: 'GET',
+            url: "interface/asynRead.php?cmd=getActList",
+            data: {ActType:2,GameType:-1},
+            async: false,
+            dataType: 'json',
+            success: function(data){
+                for(var i=0;i<data.length;i++){
+                    ActList.splice(i,0,data[i]);
+                }
+            },
+        });
+        return ActList
+    }
+
+
     $(function () {
         $('#tabs').tabs({
             onSelect:function(title,index){
-                if (title == "18000上拽统计") {
+                if (title == "3600上拽统计") {
                     $("#dg_History").datagrid("loadData",{total:0,rows:[]});
                     //   对左边的树进行单击的时候
                     $("#MainTree").tree({
@@ -66,7 +87,7 @@
                         },
                     });
 
-                }else if (title == "18000上拽统计历史"){
+                }else if (title == "3600上拽统计_历史"){
                     $("#dg").datagrid("loadData",{total:0,rows:[]});
                     //   对左边的树进行单击的时候
                     $("#MainTree").tree({

@@ -8,7 +8,7 @@
                 <span><input id="EndDate" type="text" class="easyui-datebox" name='EndDate' value="x"
                              style="width:120px;"></span>
             </span>
-                    <span>统计范围：
+            <span>统计范围：
                 <span id='UnitType_Person'>
                     <input type="radio" name="UnitType3" value="1" onclick={UnitType_RadioFun()}>个人
                 </span>
@@ -23,12 +23,12 @@
                     <input id='UnitType_RegionType1' type="radio" name="UnitType3" value="4" onclick={UnitType_RadioFun()}>中心
                 </span>
             </span>
-                    <span style="padding-left: 10px">列排序选择：
+            <span style="padding-left: 10px">列排序选择：
                 <span id=''>
                     <input type="radio" name="UnitType4" value="1" onclick={ColumnSort_RadioFun()}>用户激活期
                 </span>
                 <span id=''>
-                    <input type="radio" name="UnitType4" value="2" onclick={ColumnSort_RadioFun()} checked="true"/>用户响应期
+                    <input type="radio" name="UnitType4" value="2" onclick={ColumnSort_RadioFun()} >用户响应期
                 </span>
                 <span id=''>
                     <input type="radio" name="UnitType4" value="3" onclick={ColumnSort_RadioFun()}>用户上拽期
@@ -39,44 +39,44 @@
     <div data-options="region:'center'">
         <div id="Btns">
                 <span>
-                用户类型：
-                <select class="easyui-combobox" name="serviceLevelId"
-                        data-options="editable:false,panelHeight:'auto',panelWidth:'auto'"
-                        style="width:100px;">
-                    <option name="UnitType5" value="-1">所有类型</option>
-                    <option name="UnitType5" value="-123">360_合计</option>
-                    <option name="UnitType5" value="1">360_20年01月01日后</option>
-                    <option name="UnitType5" value="2">360_19年11月16日-20年01月01日</option>
-                    <option name="UnitType5" value="3">360_19年11月16日前</option>
-                    <option name="UnitType5" value="4">3600_12个月内到期</option>
-                    <option name="UnitType5" value="5">3600_24个月内到期</option>
-                    <option name="UnitType5" value="7">360_20年01月01日后_B0无B1</option>
-                </select>
+                    用户类型：
+                    <select class="easyui-combobox" name="serviceLevelId"
+                            data-options="editable:false,panelHeight:'auto',panelWidth:'auto'"
+                            style="width:100px;">
+                        <option name="UnitType5" value="-1">所有类型</option>
+                        <option name="UnitType5" value="-123">360_合计</option>
+                        <option name="UnitType5" value="1">360_20年01月01日后</option>
+                        <option name="UnitType5" value="2">360_19年11月16日-20年01月01日</option>
+                        <option name="UnitType5" value="3">360_19年11月16日前</option>
+                        <option name="UnitType5" value="4">3600_12个月内到期</option>
+                        <option name="UnitType5" value="5">3600_24个月内到期</option>
+                        <option name="UnitType5" value="7">360_20年01月01日后_B0无B1</option>
+                    </select>
+                </span
+                <span>
+                    人员类型：
+                    <select id="PersonTypeid" class="easyui-combobox" name="PersonType"
+                            data-options="editable:false,panelHeight:'auto',panelWidth:'auto'"
+                            style="margin-left:10px;width:70px;" disabled>
+                        <option name="UnitType6" value="0">所有</option>
+                        <option name="UnitType6" value="600000">组长</option>
+                        <option name="UnitType6" value="800000">中级销售员</option>
+                        <option name="UnitType6" value="700000">初级销售员</option>
+                    </select>
                 </span>
-            <span>
-                人员类型：
-                <select id="PersonTypeid" class="easyui-combobox" name="PersonType"
-                        data-options="editable:false,panelHeight:'auto',panelWidth:'auto'"
-                        style="margin-left:10px;width:70px;" disabled>
-                    <option name="UnitType6" value="0">所有</option>
-                    <option name="UnitType6" value="600000">组长</option>
-                    <option name="UnitType6" value="800000">中级销售员</option>
-                    <option name="UnitType6" value="700000">初级销售员</option>
-                </select>
-                </span>
-            <span>
-                    基数选择：
-                <select class="easyui-combobox" name="ClassName"
-                        data-options="editable:false,panelHeight:'auto'"
-                        style="width:95px;">
-                    <option name="UnitType7" value="7">当前资源</option>
-                    <option name="UnitType7" value="1" selected>锁定资源</option>
-                    <option name="UnitType7" value="2">转B资源</option>
-                    <option name="UnitType7" value="5">B1资源</option>
-                    <option name="UnitType7" value="3">B3资源</option>
-                    <option name="UnitType7" value="4">B+资源</option>
-                    <option name="UnitType7" value="6">听课人数</option>
-                </select>
+                <span>
+                        基数选择：
+                    <select class="easyui-combobox" name="ClassName"
+                            data-options="editable:false,panelHeight:'auto'"
+                            style="width:95px;">
+                        <option name="UnitType7" value="7">当前资源</option>
+                        <option name="UnitType7" value="1" selected>锁定资源</option>
+                        <option name="UnitType7" value="2">转B资源</option>
+                        <option name="UnitType7" value="5">B1资源</option>
+                        <option name="UnitType7" value="3">B3资源</option>
+                        <option name="UnitType7" value="4">B+资源</option>
+                        <option name="UnitType7" value="6">听课人数</option>
+                    </select>
                 </span>
             <a id="searchButton" href="javascript:void(0)" class="easyui-linkbutton"
                data-options="iconCls:'icon-reload'">刷新</a>
@@ -89,6 +89,39 @@
 <script type="text/javascript">
     var columns = [];
     $(function () {
+        //设置激活响应上拽期
+        var ActStartDate = ActList[0].ActStartDate;
+        var ActEndDate = ActList[0].ActEndDate;
+        var RespondStartDate = ActList[0].RespondStartDate;
+        var RespondEndDate = ActList[0].RespondEndDate;
+        var UpStartDate = ActList[0].UpStartDate;
+        var UpEndDate = ActList[0].UpEndDate;
+        var now_date = new Date();
+        now_date.setTime(now_date.getTime());
+        if (ActStartDate == null || ActEndDate == null ||
+            RespondStartDate == null || RespondEndDate == null ||
+            UpStartDate == null || UpEndDate == null){
+            document.getElementsByName('UnitType4')[2].checked='checked';
+            columns = process_UpdateTransStage_3;
+        } else {
+            if(now_date >= new Date(ActStartDate).getTime() &&
+                now_date <= new Date(ActEndDate).getTime()){
+                document.getElementsByName('UnitType4')[0].checked='checked';
+                columns = process_UpdateTransStage_1;
+            }else if (now_date >= new Date(RespondStartDate).getTime() &&
+                now_date <= new Date(RespondEndDate).getTime()) {
+                document.getElementsByName('UnitType4')[1].checked='checked';
+                columns = process_UpdateTransStage_2;
+            }else if(now_date >= new Date(UpStartDate).getTime() &&
+                now_date <= new Date(UpEndDate).getTime()){
+                document.getElementsByName('UnitType4')[2].checked='checked';
+                columns = process_UpdateTransStage_3;
+            }else {
+                document.getElementsByName('UnitType4')[2].checked='checked';
+                columns = process_UpdateTransStage_3;
+            }
+        }
+
         var selectType = 3;
         var serviceLevelId = -1;
         var PersonType = 0;       //id
@@ -112,7 +145,7 @@
             loadMsg: "正在努力加载数据....",
             remoteSort: false,
             sortOrder: 'asc',
-            columns:process_UpdateTransStage_2,
+            columns:columns,
 
             onBeforeSortColumn: function (sort, order) {
                 // datagrid排序前把全部数据加载进去

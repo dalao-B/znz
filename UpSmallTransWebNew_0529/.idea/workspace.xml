@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f714c9ac-b184-4159-aafd-386128722534" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/datagrid_config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="698" column="31" selection-start-line="698" selection-start-column="4" selection-end-line="698" selection-end-column="31" />
+              <folding>
+                <element signature="e#28#6077#0" />
+                <element signature="e#29#2955#0" />
+                <element signature="e#35#277#0" />
+                <element signature="e#144#276#0" />
+                <element signature="e#173#217#0" />
+                <element signature="e#221#266#0" />
+                <element signature="e#702#991#0" />
+                <element signature="e#852#990#0" />
+                <element signature="e#888#931#0" />
+                <element signature="e#937#980#0" />
+                <element signature="e#2956#6076#0" />
+                <element signature="e#6115#12713#0" />
+                <element signature="e#6116#9002#0" />
+                <element signature="e#6122#6364#0" />
+                <element signature="e#6231#6363#0" />
+                <element signature="e#6260#6304#0" />
+                <element signature="e#6308#6353#0" />
+                <element signature="e#6788#7077#0" />
+                <element signature="e#6938#7076#0" />
+                <element signature="e#6974#7017#0" />
+                <element signature="e#7023#7066#0" />
+                <element signature="e#9003#12712#0" />
+                <element signature="e#12749#22623#0" />
+                <element signature="e#12750#18352#0" />
+                <element signature="e#12756#12998#0" />
+                <element signature="e#12865#12997#0" />
+                <element signature="e#12894#12938#0" />
+                <element signature="e#12942#12987#0" />
+                <element signature="e#13422#13711#0" />
+                <element signature="e#13572#13710#0" />
+                <element signature="e#13608#13651#0" />
+                <element signature="e#13657#13700#0" />
+                <element signature="e#15820#15959#0" />
+                <element signature="e#16263#16418#0" />
+                <element signature="e#17658#17792#0" />
+                <element signature="e#18353#22622#0" />
+                <element signature="e#22659#31947#0" />
+                <element signature="e#22660#28140#0" />
+                <element signature="e#22666#22908#0" />
+                <element signature="e#22775#22907#0" />
+                <element signature="e#22804#22848#0" />
+                <element signature="e#22852#22897#0" />
+                <element signature="e#23332#23621#0" />
+                <element signature="e#23482#23620#0" />
+                <element signature="e#23518#23561#0" />
+                <element signature="e#23567#23610#0" />
+                <element signature="e#26578#26717#0" />
+                <element signature="e#27446#27580#0" />
+                <element signature="e#28141#31946#0" />
+                <element signature="e#31983#42852#0" />
+                <element signature="e#31984#37722#0" />
+                <element signature="e#31990#32232#0" />
+                <element signature="e#32099#32231#0" />
+                <element signature="e#32128#32172#0" />
+                <element signature="e#32176#32221#0" />
+                <element signature="e#32656#32945#0" />
+                <element signature="e#32806#32944#0" />
+                <element signature="e#32842#32885#0" />
+                <element signature="e#32891#32934#0" />
+                <element signature="e#33795#33934#0" />
+                <element signature="e#37028#37162#0" />
+                <element signature="e#37723#42851#0" />
+                <element signature="e#42889#49994#0" />
+                <element signature="e#42890#46381#0" />
+                <element signature="e#42896#43138#0" />
+                <element signature="e#43005#43137#0" />
+                <element signature="e#43034#43078#0" />
+                <element signature="e#43082#43127#0" />
+                <element signature="e#43561#43850#0" />
+                <element signature="e#43711#43849#0" />
+                <element signature="e#43747#43790#0" />
+                <element signature="e#43796#43839#0" />
+                <element signature="e#46382#49993#0" />
+                <element signature="e#50031#56526#0" />
+                <element signature="e#50032#53399#0" />
+                <element signature="e#50038#50280#0" />
+                <element signature="e#50147#50279#0" />
+                <element signature="e#50176#50220#0" />
+                <element signature="e#50224#50269#0" />
+                <element signature="e#50703#50992#0" />
+                <element signature="e#50853#50991#0" />
+                <element signature="e#50889#50932#0" />
+                <element signature="e#50938#50981#0" />
+                <element signature="e#53400#56525#0" />
+                <element signature="e#56563#64416#0" />
+                <element signature="e#56564#60192#0" />
+                <element signature="e#56570#56812#0" />
+                <element signature="e#56679#56811#0" />
+                <element signature="e#56708#56752#0" />
+                <element signature="e#56756#56801#0" />
+                <element signature="e#57235#57524#0" />
+                <element signature="e#57385#57523#0" />
+                <element signature="e#57421#57464#0" />
+                <element signature="e#57470#57513#0" />
+                <element signature="e#60193#64415#0" />
+                <element signature="e#64453#76319#0" />
+                <element signature="e#64454#68713#0" />
+                <element signature="e#64460#64702#0" />
+                <element signature="e#64569#64701#0" />
+                <element signature="e#64598#64642#0" />
+                <element signature="e#64646#64691#0" />
+                <element signature="e#65126#65415#0" />
+                <element signature="e#65276#65414#0" />
+                <element signature="e#65312#65355#0" />
+                <element signature="e#65361#65404#0" />
+                <element signature="e#68714#76318#0" />
+                <element signature="e#74343#74723#0" />
+                <element signature="e#74478#74717#0" />
+                <element signature="e#76356#87584#0" />
+                <element signature="e#76357#80492#0" />
+                <element signature="e#76363#76605#0" />
+                <element signature="e#76472#76604#0" />
+                <element signature="e#76501#76545#0" />
+                <element signature="e#76549#76594#0" />
+                <element signature="e#77029#77318#0" />
+                <element signature="e#77179#77317#0" />
+                <element signature="e#77215#77258#0" />
+                <element signature="e#77264#77307#0" />
+                <element signature="e#80493#87583#0" />
+                <element signature="e#86672#87052#0" />
+                <element signature="e#86807#87046#0" />
+                <element signature="e#87621#100265#0" />
+                <element signature="e#87622#92013#0" />
+                <element signature="e#87628#87870#0" />
+                <element signature="e#87737#87869#0" />
+                <element signature="e#87766#87810#0" />
+                <element signature="e#87814#87859#0" />
+                <element signature="e#88294#88583#0" />
+                <element signature="e#88444#88582#0" />
+                <element signature="e#88480#88523#0" />
+                <element signature="e#88529#88572#0" />
+                <element signature="e#92014#100264#0" />
+                <element signature="e#93425#93805#0" />
+                <element signature="e#93560#93799#0" />
+                <element signature="e#100295#103144#0" />
+                <element signature="e#100296#103143#0" />
+                <element signature="e#100302#100535#0" />
+                <element signature="e#100402#100534#0" />
+                <element signature="e#100431#100475#0" />
+                <element signature="e#100479#100524#0" />
+                <element signature="e#100997#101276#0" />
+                <element signature="e#101138#101275#0" />
+                <element signature="e#101173#101216#0" />
+                <element signature="e#101222#101265#0" />
+                <element signature="e#101387#101651#0" />
+                <element signature="e#101520#101650#0" />
+                <element signature="e#101546#101590#0" />
+                <element signature="e#101594#101640#0" />
+                <element signature="e#103177#106234#0" />
+                <element signature="e#103178#105989#0" />
+                <element signature="e#103184#103426#0" />
+                <element signature="e#103293#103425#0" />
+                <element signature="e#103322#103366#0" />
+                <element signature="e#103370#103415#0" />
+                <element signature="e#103964#104227#0" />
+                <element signature="e#104096#104226#0" />
+                <element signature="e#104122#104166#0" />
+                <element signature="e#104170#104216#0" />
+                <element signature="e#105990#106233#0" />
+                <element signature="e#106268#110213#0" />
+                <element signature="e#106269#109460#0" />
+                <element signature="e#106275#106517#0" />
+                <element signature="e#106384#106516#0" />
+                <element signature="e#106413#106457#0" />
+                <element signature="e#106461#106506#0" />
+                <element signature="e#107055#107318#0" />
+                <element signature="e#107187#107317#0" />
+                <element signature="e#107213#107257#0" />
+                <element signature="e#107261#107307#0" />
+                <element signature="e#109461#110212#0" />
+                <element signature="e#110242#113862#0" />
+                <element signature="e#110243#111485#0" />
+                <element signature="e#110249#110491#0" />
+                <element signature="e#110358#110490#0" />
+                <element signature="e#110387#110431#0" />
+                <element signature="e#110435#110480#0" />
+                <element signature="e#110915#111204#0" />
+                <element signature="e#111065#111203#0" />
+                <element signature="e#111101#111144#0" />
+                <element signature="e#111150#111193#0" />
+                <element signature="e#111486#113861#0" />
+                <element signature="n#!!block;n#numFormatter#0" />
+                <element signature="e#113943#113969#0" />
+                <element signature="e#113975#114239#0" />
+                <element signature="e#114021#114113#0" />
+                <element signature="e#114118#114233#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/part/process/process_OrganizationTransStagePanel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="24" column="91" lean-forward="true" selection-start-line="24" selection-start-column="91" selection-end-line="24" selection-end-column="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>dg_data</find>
+      <find>total: new_data.length-new_stdata.length</find>
+      <find>dg</find>
+      <find>searchButton</find>
+      <find>function getData() {</find>
+      <find>// 向后台传递日期等参数变量</find>
+      <find>pagerFilter</find>
+      <find>length</find>
+      <find>load_data</find>
+      <find>total: new_data.length</find>
+      <find>Btns_History</find>
+      <find>去除</find>
+      <find>btns</find>
+      <find>datagrid_columns_config</find>
+      <find>成单人数</find>
+      <find>command</find>
+      <find>get360ClassInfo</find>
+      <find>getOrganizationClassInfo</find>
+      <find>columns</find>
+      <find>process_AdvanceTransStage</find>
+      <find>left</find>
+      <find>halign</find>
+      <find>快递完成</find>
+      <find>ExpressStatus_Finished_Organization</find>
+      <find>格式化</find>
+      <find>ajax</find>
+      <find>用户类型</find>
+      <find>align:'left'</find>
+      <find>日人均</find>
+      <find>console</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>UnitType_RadioFun_History</replace>
+      <replace>UnitType4_History</replace>
+      <replace>ColumnSort_RadioFun_History</replace>
+      <replace>Btns_History</replace>
+      <replace>serviceLevelId_History</replace>
+      <replace>UnitType5_History</replace>
+      <replace>ClassName_History</replace>
+      <replace>UnitType7_History</replace>
+      <replace>searchButton_History</replace>
+      <replace>dg_History</replace>
+      <replace>_Organization</replace>
+      <replace>center</replace>
+      <replace>100</replace>
+      <replace>width:100,</replace>
+      <replace>left</replace>
+      <replace>&lt;div class=&quot;easyui-panel&quot; style=&quot;background-color: #E0ECFF; width: 100%;height: 3.5%&quot;&gt;</replace>
+      <replace>style=&quot;width: 84%;height: 94%&quot;</replace>
+      <replace>right</replace>
+      <replace>style=&quot;background-color: #E0ECFF;  width: 110%;height:30px;overflow: hidden&quot;</replace>
+      <replace>data-options=&quot;fit:true&quot;</replace>
+      <replace>total: new_data.length-new_stdata.length,</replace>
+      <replace>total: new_data.length</replace>
+      <replace>datagrid_config</replace>
+      <replace />
+      <replace />
+      <replace>loadFilter</replace>
+      <replace>align:'right',halign:&quot;center&quot;</replace>
+      <replace>align:'left',halign:&quot;center&quot;</replace>
+      <replace>140</replace>
+      <replace>120</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>Y:\html\UpSmallTransWebNew</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/part/process_UpdateTrans.php" />
+        <option value="$PROJECT_DIR$/part/process_NewTrans.php" />
+        <option value="$PROJECT_DIR$/part/process_UpdateTransStage_obsoletePanel.php" />
+        <option value="$PROJECT_DIR$/part/process_UpdateClassBChange_DetailPanel.php" />
+        <option value="$PROJECT_DIR$/part/process_NewClassBChange_DetailPanel.php" />
+        <option value="$PROJECT_DIR$/part/process_NewTransStage_obsoletePanel.php" />
+        <option value="$PROJECT_DIR$/part/process_UpdateTransStagePanel1.php" />
+        <option value="$PROJECT_DIR$/echarts_use_setting.js" />
+        <option value="$PROJECT_DIR$/js/echarts_use_setting.php" />
+        <option value="$PROJECT_DIR$/part/process_NewTransStagePanel.php" />
+        <option value="$PROJECT_DIR$/part/process_UpdateTransStagePanel.php" />
+        <option value="$PROJECT_DIR$/part/process_NewTransStageHistoryPanel.php" />
+        <option value="$PROJECT_DIR$/part/process_UpdateTransStageHistoryPanel.php" />
+        <option value="$PROJECT_DIR$/process_UpdateTrans.php" />
+        <option value="$PROJECT_DIR$/process_NewTrans.php" />
+        <option value="$PROJECT_DIR$/part/result/updateTransStage.php" />
+        <option value="$PROJECT_DIR$/part/result/result_UpdateTrans.php" />
+        <option value="$PROJECT_DIR$/js/default_date_setting.js" />
+        <option value="$PROJECT_DIR$/js/echarts_use_setting.js" />
+        <option value="$PROJECT_DIR$/part/process/process_NewTrans.php" />
+        <option value="$PROJECT_DIR$/interface/include/PublicFunction.php" />
+        <option value="$PROJECT_DIR$/interface/include/PublicFunc.php" />
+        <option value="$PROJECT_DIR$/tree.json" />
+        <option value="D:/working/mywork/UpSmallTransWebNew_0513/process_NewTransStagePanel.php" />
+        <option value="$PROJECT_DIR$/js/datagrid_columns.js" />
+        <option value="$PROJECT_DIR$/js/datagrid_columns_config.js" />
+        <option value="$PROJECT_DIR$/111" />
+        <option value="$PROJECT_DIR$/part/process/process_NewTransStagePanel.php" />
+        <option value="$PROJECT_DIR$/part/process/process_NewTransStageHistoryPanel.php" />
+        <option value="$PROJECT_DIR$/part/result/result_NewTransStage.php" />
+        <option value="$PROJECT_DIR$/part/result/result_UpdateTransStage.php" />
+        <option value="$PROJECT_DIR$/part/result/result_AdvanceTransStage.php" />
+        <option value="$PROJECT_DIR$/part/labor/labor_AdvanceTransStage.php" />
+        <option value="$PROJECT_DIR$/part/labor/labor_NewTransStage.php" />
+        <option value="$PROJECT_DIR$/part/labor/labor_OrganizationTransStage.php" />
+        <option value="$PROJECT_DIR$/part/labor/labor_UpdateTransStage.php" />
+        <option value="$PROJECT_DIR$/part/result/result_OrganizationTransStage.php" />
+        <option value="$PROJECT_DIR$/js/datagrid_config.js" />
+        <option value="$PROJECT_DIR$/interface/include/actAnalysisWebMssqlDB.php" />
+        <option value="$PROJECT_DIR$/interface/config/config.php" />
+        <option value="$PROJECT_DIR$/interface/asynRead.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/part/process/process_UpdateTrans.php" />
+        <option value="$PROJECT_DIR$/part/process/process_AdvanceTrans.php" />
+        <option value="$PROJECT_DIR$/part/process/process_AdvanceTransStagePanel.php" />
+        <option value="$PROJECT_DIR$/part/process/process_UpdateTransStagePanel.php" />
+        <option value="$PROJECT_DIR$/part/process/process_UpdateTransStageHistoryPanel.php" />
+        <option value="$PROJECT_DIR$/part/process/process_OrganizationTrans.php" />
+        <option value="$PROJECT_DIR$/part/process/process_AdvanceTransStageHistoryPanel.php" />
+        <option value="$PROJECT_DIR$/part/process/process_OrganizationTransStagePanel.php" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1943" />
+    <option name="height" value="1103" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="UpSmallTransWebNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UpSmallTransWebNew" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UpSmallTransWebNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UpSmallTransWebNew" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UpSmallTransWebNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UpSmallTransWebNew" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UpSmallTransWebNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UpSmallTransWebNew" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UpSmallTransWebNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UpSmallTransWebNew" type="462c0819:PsiDirectoryNode" />
+              <item name="part" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UpSmallTransWebNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UpSmallTransWebNew" type="462c0819:PsiDirectoryNode" />
+              <item name="part" type="462c0819:PsiDirectoryNode" />
+              <item name="labor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UpSmallTransWebNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UpSmallTransWebNew" type="462c0819:PsiDirectoryNode" />
+              <item name="part" type="462c0819:PsiDirectoryNode" />
+              <item name="process" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UpSmallTransWebNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UpSmallTransWebNew" type="462c0819:PsiDirectoryNode" />
+              <item name="part" type="462c0819:PsiDirectoryNode" />
+              <item name="result" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ActAnalysisWeb" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="Y:\html\UpSmallTransWebNew\part\process" />
+      <recent name="Y:\html\UpSmallTransWebNew\part\result" />
+      <recent name="Y:\html\UpSmallTransWebNew\part\labor" />
+      <recent name="Y:\html\UpSmallTransWebNew" />
+      <recent name="Y:\html\UpSmallTransWebNew\part" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Y:\html\UpSmallTransWebNew" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f714c9ac-b184-4159-aafd-386128722534" name="Default Changelist" comment="" />
+      <created>1588730734431</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588730734431</updated>
+      <workItem from="1588730735634" duration="13625000" />
+      <workItem from="1588748642918" duration="2559000" />
+      <workItem from="1588751211714" duration="44874000" />
+      <workItem from="1588899439105" duration="152307000" />
+      <workItem from="1589347007183" duration="27174000" />
+      <workItem from="1589416207795" duration="27996000" />
+      <workItem from="1589453367535" duration="3093000" />
+      <workItem from="1589849931498" duration="2710000" />
+      <workItem from="1589853459123" duration="13771000" />
+      <workItem from="1590108354501" duration="101783000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="508783000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17461601" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3294702" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/event.js" />
+    <entry file="file://$PROJECT_DIR$/js/world.js" />
+    <entry file="file://$PROJECT_DIR$/js/simplex.js" />
+    <entry file="file://$PROJECT_DIR$/js/vintage.js" />
+    <entry file="file://$PROJECT_DIR$/part/process_UpdateTransStagePanel.php" />
+    <entry file="file://$PROJECT_DIR$/part/process_NewTransStageHistoryPanel.php" />
+    <entry file="file://$PROJECT_DIR$/part/process_UpdateTransStageHistoryPanel.php" />
+    <entry file="file://$PROJECT_DIR$/part/process_NewTransStagePanel.php" />
+    <entry file="file://$PROJECT_DIR$/process_UpdateTrans.php" />
+    <entry file="file://$PROJECT_DIR$/process_NewTrans.php" />
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="725" column="14" selection-start-line="725" selection-start-column="14" selection-end-line="725" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/process/process_NewClassBChange_DetailPanel.php" />
+    <entry file="file://$PROJECT_DIR$/part/process/process_NewTransStage_obsoletePanel.php" />
+    <entry file="file://$PROJECT_DIR$/part/process/process_UpdateTransStage_obsoletePanel.php" />
+    <entry file="file://$PROJECT_DIR$/js/default_date_setting.js" />
+    <entry file="file://$PROJECT_DIR$/interface/config/config.php.bak">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/working/mywork/ActAnalysisWeb_0518/part/process/process_UpdateTransStageHistoryPanel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#span#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/include/PublicFunc_EasyUI1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/include/GenericMssqlDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/include/PublicFunction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/include/PublicFunc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="47" column="20" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="50945" selection-start-column="50945" selection-end-column="50945" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/process/process_NewTrans.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-703">
+          <caret line="11" column="74" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/working/mywork/UpSmallTransWebNew_0513/process_NewTransStagePanel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="64" column="36" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/makeExcel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="443" column="4" lean-forward="true" selection-start-line="443" selection-start-column="4" selection-end-line="443" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/echarts_use_setting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="76" column="20" lean-forward="true" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/process/process_NewTransStagePanel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="280" column="15" selection-start-line="280" selection-start-column="15" selection-end-line="280" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/process/process_NewTransStageHistoryPanel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="282" column="15" selection-start-line="282" selection-start-column="15" selection-end-line="282" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/result/result_NewTransStage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="231" column="15" selection-start-line="231" selection-start-column="15" selection-end-line="231" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/result/result_UpdateTransStage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="228" column="15" selection-start-line="228" selection-start-column="15" selection-end-line="228" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/result/result_AdvanceTransStage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="228" column="15" selection-start-line="228" selection-start-column="15" selection-end-line="228" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/labor/labor_AdvanceTransStage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="228" column="9" lean-forward="true" selection-start-line="228" selection-start-column="9" selection-end-line="228" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/labor/labor_NewTransStage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="228" column="15" selection-start-line="228" selection-start-column="15" selection-end-line="228" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/labor/labor_OrganizationTransStage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="228" column="15" selection-start-line="228" selection-start-column="15" selection-end-line="228" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/labor/labor_UpdateTransStage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="228" column="15" selection-start-line="228" selection-start-column="15" selection-end-line="228" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/111">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="29" selection-start-line="5" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/result/result_OrganizationTransStage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="191" column="57" selection-start-line="191" selection-start-column="57" selection-end-line="191" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/asynRead.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="317" column="14" lean-forward="true" selection-start-line="317" selection-start-column="14" selection-end-line="317" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="289" column="20" selection-start-line="289" selection-start-column="20" selection-end-line="289" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/config/activeConfig.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/include/actAnalysisWebMssqlDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="1118" column="57" lean-forward="true" selection-start-line="1118" selection-start-column="57" selection-end-line="1118" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/process/process_AdvanceTrans.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="e#337#7674#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/process/process_UpdateTransStageHistoryPanel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="24" column="114" selection-start-line="24" selection-start-column="114" selection-end-line="24" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/process/process_AdvanceTransStagePanel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="119" column="9" lean-forward="true" selection-start-line="88" selection-start-column="8" selection-end-line="119" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/process/process_UpdateTrans.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/process/process_OrganizationTrans.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="e#227#3871#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/process/process_UpdateTransStagePanel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="122" column="9" lean-forward="true" selection-start-line="91" selection-start-column="8" selection-end-line="122" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/datagrid_config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="698" column="31" selection-start-line="698" selection-start-column="4" selection-end-line="698" selection-end-column="31" />
+          <folding>
+            <element signature="e#28#6077#0" />
+            <element signature="e#29#2955#0" />
+            <element signature="e#35#277#0" />
+            <element signature="e#144#276#0" />
+            <element signature="e#173#217#0" />
+            <element signature="e#221#266#0" />
+            <element signature="e#702#991#0" />
+            <element signature="e#852#990#0" />
+            <element signature="e#888#931#0" />
+            <element signature="e#937#980#0" />
+            <element signature="e#2956#6076#0" />
+            <element signature="e#6115#12713#0" />
+            <element signature="e#6116#9002#0" />
+            <element signature="e#6122#6364#0" />
+            <element signature="e#6231#6363#0" />
+            <element signature="e#6260#6304#0" />
+            <element signature="e#6308#6353#0" />
+            <element signature="e#6788#7077#0" />
+            <element signature="e#6938#7076#0" />
+            <element signature="e#6974#7017#0" />
+            <element signature="e#7023#7066#0" />
+            <element signature="e#9003#12712#0" />
+            <element signature="e#12749#22623#0" />
+            <element signature="e#12750#18352#0" />
+            <element signature="e#12756#12998#0" />
+            <element signature="e#12865#12997#0" />
+            <element signature="e#12894#12938#0" />
+            <element signature="e#12942#12987#0" />
+            <element signature="e#13422#13711#0" />
+            <element signature="e#13572#13710#0" />
+            <element signature="e#13608#13651#0" />
+            <element signature="e#13657#13700#0" />
+            <element signature="e#15820#15959#0" />
+            <element signature="e#16263#16418#0" />
+            <element signature="e#17658#17792#0" />
+            <element signature="e#18353#22622#0" />
+            <element signature="e#22659#31947#0" />
+            <element signature="e#22660#28140#0" />
+            <element signature="e#22666#22908#0" />
+            <element signature="e#22775#22907#0" />
+            <element signature="e#22804#22848#0" />
+            <element signature="e#22852#22897#0" />
+            <element signature="e#23332#23621#0" />
+            <element signature="e#23482#23620#0" />
+            <element signature="e#23518#23561#0" />
+            <element signature="e#23567#23610#0" />
+            <element signature="e#26578#26717#0" />
+            <element signature="e#27446#27580#0" />
+            <element signature="e#28141#31946#0" />
+            <element signature="e#31983#42852#0" />
+            <element signature="e#31984#37722#0" />
+            <element signature="e#31990#32232#0" />
+            <element signature="e#32099#32231#0" />
+            <element signature="e#32128#32172#0" />
+            <element signature="e#32176#32221#0" />
+            <element signature="e#32656#32945#0" />
+            <element signature="e#32806#32944#0" />
+            <element signature="e#32842#32885#0" />
+            <element signature="e#32891#32934#0" />
+            <element signature="e#33795#33934#0" />
+            <element signature="e#37028#37162#0" />
+            <element signature="e#37723#42851#0" />
+            <element signature="e#42889#49994#0" />
+            <element signature="e#42890#46381#0" />
+            <element signature="e#42896#43138#0" />
+            <element signature="e#43005#43137#0" />
+            <element signature="e#43034#43078#0" />
+            <element signature="e#43082#43127#0" />
+            <element signature="e#43561#43850#0" />
+            <element signature="e#43711#43849#0" />
+            <element signature="e#43747#43790#0" />
+            <element signature="e#43796#43839#0" />
+            <element signature="e#46382#49993#0" />
+            <element signature="e#50031#56526#0" />
+            <element signature="e#50032#53399#0" />
+            <element signature="e#50038#50280#0" />
+            <element signature="e#50147#50279#0" />
+            <element signature="e#50176#50220#0" />
+            <element signature="e#50224#50269#0" />
+            <element signature="e#50703#50992#0" />
+            <element signature="e#50853#50991#0" />
+            <element signature="e#50889#50932#0" />
+            <element signature="e#50938#50981#0" />
+            <element signature="e#53400#56525#0" />
+            <element signature="e#56563#64416#0" />
+            <element signature="e#56564#60192#0" />
+            <element signature="e#56570#56812#0" />
+            <element signature="e#56679#56811#0" />
+            <element signature="e#56708#56752#0" />
+            <element signature="e#56756#56801#0" />
+            <element signature="e#57235#57524#0" />
+            <element signature="e#57385#57523#0" />
+            <element signature="e#57421#57464#0" />
+            <element signature="e#57470#57513#0" />
+            <element signature="e#60193#64415#0" />
+            <element signature="e#64453#76319#0" />
+            <element signature="e#64454#68713#0" />
+            <element signature="e#64460#64702#0" />
+            <element signature="e#64569#64701#0" />
+            <element signature="e#64598#64642#0" />
+            <element signature="e#64646#64691#0" />
+            <element signature="e#65126#65415#0" />
+            <element signature="e#65276#65414#0" />
+            <element signature="e#65312#65355#0" />
+            <element signature="e#65361#65404#0" />
+            <element signature="e#68714#76318#0" />
+            <element signature="e#74343#74723#0" />
+            <element signature="e#74478#74717#0" />
+            <element signature="e#76356#87584#0" />
+            <element signature="e#76357#80492#0" />
+            <element signature="e#76363#76605#0" />
+            <element signature="e#76472#76604#0" />
+            <element signature="e#76501#76545#0" />
+            <element signature="e#76549#76594#0" />
+            <element signature="e#77029#77318#0" />
+            <element signature="e#77179#77317#0" />
+            <element signature="e#77215#77258#0" />
+            <element signature="e#77264#77307#0" />
+            <element signature="e#80493#87583#0" />
+            <element signature="e#86672#87052#0" />
+            <element signature="e#86807#87046#0" />
+            <element signature="e#87621#100265#0" />
+            <element signature="e#87622#92013#0" />
+            <element signature="e#87628#87870#0" />
+            <element signature="e#87737#87869#0" />
+            <element signature="e#87766#87810#0" />
+            <element signature="e#87814#87859#0" />
+            <element signature="e#88294#88583#0" />
+            <element signature="e#88444#88582#0" />
+            <element signature="e#88480#88523#0" />
+            <element signature="e#88529#88572#0" />
+            <element signature="e#92014#100264#0" />
+            <element signature="e#93425#93805#0" />
+            <element signature="e#93560#93799#0" />
+            <element signature="e#100295#103144#0" />
+            <element signature="e#100296#103143#0" />
+            <element signature="e#100302#100535#0" />
+            <element signature="e#100402#100534#0" />
+            <element signature="e#100431#100475#0" />
+            <element signature="e#100479#100524#0" />
+            <element signature="e#100997#101276#0" />
+            <element signature="e#101138#101275#0" />
+            <element signature="e#101173#101216#0" />
+            <element signature="e#101222#101265#0" />
+            <element signature="e#101387#101651#0" />
+            <element signature="e#101520#101650#0" />
+            <element signature="e#101546#101590#0" />
+            <element signature="e#101594#101640#0" />
+            <element signature="e#103177#106234#0" />
+            <element signature="e#103178#105989#0" />
+            <element signature="e#103184#103426#0" />
+            <element signature="e#103293#103425#0" />
+            <element signature="e#103322#103366#0" />
+            <element signature="e#103370#103415#0" />
+            <element signature="e#103964#104227#0" />
+            <element signature="e#104096#104226#0" />
+            <element signature="e#104122#104166#0" />
+            <element signature="e#104170#104216#0" />
+            <element signature="e#105990#106233#0" />
+            <element signature="e#106268#110213#0" />
+            <element signature="e#106269#109460#0" />
+            <element signature="e#106275#106517#0" />
+            <element signature="e#106384#106516#0" />
+            <element signature="e#106413#106457#0" />
+            <element signature="e#106461#106506#0" />
+            <element signature="e#107055#107318#0" />
+            <element signature="e#107187#107317#0" />
+            <element signature="e#107213#107257#0" />
+            <element signature="e#107261#107307#0" />
+            <element signature="e#109461#110212#0" />
+            <element signature="e#110242#113862#0" />
+            <element signature="e#110243#111485#0" />
+            <element signature="e#110249#110491#0" />
+            <element signature="e#110358#110490#0" />
+            <element signature="e#110387#110431#0" />
+            <element signature="e#110435#110480#0" />
+            <element signature="e#110915#111204#0" />
+            <element signature="e#111065#111203#0" />
+            <element signature="e#111101#111144#0" />
+            <element signature="e#111150#111193#0" />
+            <element signature="e#111486#113861#0" />
+            <element signature="n#!!block;n#numFormatter#0" />
+            <element signature="e#113943#113969#0" />
+            <element signature="e#113975#114239#0" />
+            <element signature="e#114021#114113#0" />
+            <element signature="e#114118#114233#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/process/process_AdvanceTransStageHistoryPanel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="94" column="33" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part/process/process_OrganizationTransStagePanel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="24" column="91" lean-forward="true" selection-start-line="24" selection-start-column="91" selection-end-line="24" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

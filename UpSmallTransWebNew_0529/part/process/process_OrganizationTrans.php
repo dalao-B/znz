@@ -2,6 +2,25 @@
     <div title="财富掌门上拽统计"  data-options="href:'part/process/process_OrganizationTransStagePanel.php'"></div>
 </div>
 <script type="text/javascript">
+    var ActList = getActList();
+    function getActList() {
+        var ActList = [];
+        $.ajax({
+            type: 'GET',
+            url: "interface/asynRead.php?cmd=getActList",
+            data: {ActType:7,GameType:-1},
+            async: false,
+            dataType: 'json',
+            success: function(data){
+                for(var i=0;i<data.length;i++){
+                    ActList.splice(i,0,data[i]);
+                }
+            },
+        });
+        return ActList
+    }
+
+
     $(function () {
         $('#tabs').tabs({
             onSelect:function(title,index){

@@ -305,7 +305,17 @@ switch($cmd){
         
     case 'UpdateTransStageHistoryInfoGet':
         $message=$mssqlDB->UpdateTransStageHistoryInfoGet($request,$retArray);
-        break;           
+        break;
+
+    case "getActList":
+        $mssqlDB=new webnerveMssqlDB($webnerveMssqlDBInfo_1);
+        getParamToRequest('ActType','ActType',$_REQUEST["ActType"]);
+        getParamToRequest('GameType','GameType',-1);
+        $message=$mssqlDB->getActList($request, $retArray);
+        $mssqlDB->close();
+        echo json_encode($retArray);
+        exit();
+        break;
 }
 
 
